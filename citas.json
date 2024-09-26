@@ -1,0 +1,402 @@
+[
+    {
+        "_id": 1,
+        "title": "Visitar un pueblo cercano"
+    },
+    {
+        "_id": 2,
+        "title": "Hacer un picnic en el parque"
+    },
+    {
+        "_id": 3,
+        "title": "Ir al cine a ver una película"
+    },
+    {
+        "_id": 4,
+        "title": "Tomar una clase de cocina juntos"
+    },
+    {
+        "_id": 5,
+        "title": "Ir a una cata de vinos"
+    },
+    {
+        "_id": 6,
+        "title": "Hacer senderismo en la montaña"
+    },
+    {
+        "_id": 7,
+        "title": "Ver el atardecer en la playa"
+    },
+    {
+        "_id": 8,
+        "title": "Tener una noche de juegos de mesa"
+    },
+    {
+        "_id": 9,
+        "title": "Explorar un museo de arte"
+    },
+    {
+        "_id": 10,
+        "title": "Pasar el día en un spa"
+    },
+    {
+        "_id": 11,
+        "title": "Visitar un zoológico o acuario"
+    },
+    {
+        "_id": 12,
+        "title": "Montar en bicicleta por la ciudad"
+    },
+    {
+        "_id": 13,
+        "title": "Asistir a un concierto al aire libre"
+    },
+    {
+        "_id": 14,
+        "title": "Pasar la noche en una cabaña en el bosque"
+    },
+    {
+        "_id": 15,
+        "title": "Hacer una maratón de películas en casa"
+    },
+    {
+        "_id": 16,
+        "title": "Ir a un parque de atracciones"
+    },
+    {
+        "_id": 17,
+        "title": "Tener una cena temática de algún país"
+    },
+    {
+        "_id": 18,
+        "title": "Ir a un mercado local de agricultores"
+    },
+    {
+        "_id": 19,
+        "title": "Tomar una clase de baile juntos"
+    },
+    {
+        "_id": 20,
+        "title": "Hacer una sesión de fotos en pareja"
+    },
+    {
+        "_id": 21,
+        "title": "Jugar minigolf"
+    },
+    {
+        "_id": 22,
+        "title": "Ir a una feria local"
+    },
+    {
+        "_id": 23,
+        "title": "Visitar una galería de arte"
+    },
+    {
+        "_id": 24,
+        "title": "Hacer voluntariado juntos"
+    },
+    {
+        "_id": 25,
+        "title": "Hacer kayak en un lago"
+    },
+    {
+        "_id": 26,
+        "title": "Tomar un tour histórico por la ciudad"
+    },
+    {
+        "_id": 27,
+        "title": "Ir a un festival gastronómico"
+    },
+    {
+        "_id": 28,
+        "title": "Asistir a una obra de teatro"
+    },
+    {
+        "_id": 29,
+        "title": "Ir a un bar de karaoke"
+    },
+    {
+        "_id": 30,
+        "title": "Escaparse un fin de semana a una ciudad cercana"
+    },
+    {
+        "_id": 31,
+        "title": "Ir a una pista de patinaje sobre hielo"
+    },
+    {
+        "_id": 32,
+        "title": "Tomar un café en una librería"
+    },
+    {
+        "_id": 33,
+        "title": "Hacer una ruta gastronómica por la ciudad"
+    },
+    {
+        "_id": 34,
+        "title": "Visitar un parque nacional"
+    },
+    {
+        "_id": 35,
+        "title": "Tomar una clase de cerámica juntos"
+    },
+    {
+        "_id": 36,
+        "title": "Hacer una fogata y tostar malvaviscos"
+    },
+    {
+        "_id": 37,
+        "title": "Pasar la noche viendo estrellas"
+    },
+    {
+        "_id": 38,
+        "title": "Ir a una sala de escape"
+    },
+    {
+        "_id": 39,
+        "title": "Visitar un jardín botánico"
+    },
+    {
+        "_id": 40,
+        "title": "Jugar bolos"
+    },
+    {
+        "_id": 41,
+        "title": "Hacer una excursión en globo aerostático"
+    },
+    {
+        "_id": 42,
+        "title": "Ir a un parque de trampolines"
+    },
+    {
+        "_id": 43,
+        "title": "Visitar una bodega de vinos"
+    },
+    {
+        "_id": 44,
+        "title": "Tener una sesión de masajes en pareja"
+    },
+    {
+        "_id": 45,
+        "title": "Ir a una exposición de coches antiguos"
+    },
+    {
+        "_id": 46,
+        "title": "Ver una película en autocinema"
+    },
+    {
+        "_id": 47,
+        "title": "Ir a una pista de go-karts"
+    },
+    {
+        "_id": 48,
+        "title": "Tener una cita sorpresa con pistas"
+    },
+    {
+        "_id": 49,
+        "title": "Ir a una competencia deportiva"
+    },
+    {
+        "_id": 50,
+        "title": "Hacer snorkel en la playa"
+    },
+    {
+        "_id": 51,
+        "title": "Visitar una ciudad turística"
+    },
+    {
+        "_id": 52,
+        "title": "Ir a un restaurante temático"
+    },
+    {
+        "_id": 53,
+        "title": "Tomar una clase de fotografía juntos"
+    },
+    {
+        "_id": 54,
+        "title": "Ir a un mercado de pulgas"
+    },
+    {
+        "_id": 55,
+        "title": "Tener una cita de desayuno en la cama"
+    },
+    {
+        "_id": 56,
+        "title": "Asistir a una charla o conferencia juntos"
+    },
+    {
+        "_id": 57,
+        "title": "Ir a una clase de pintura con vino"
+    },
+    {
+        "_id": 58,
+        "title": "Tener un día de spa en casa"
+    },
+    {
+        "_id": 59,
+        "title": "Asistir a una gala benéfica"
+    },
+    {
+        "_id": 60,
+        "title": "Hacer una carrera de karts"
+    },
+    {
+        "_id": 61,
+        "title": "Visitar un parque temático de dinosaurios"
+    },
+    {
+        "_id": 62,
+        "title": "Hacer una ruta de senderismo nocturna"
+    },
+    {
+        "_id": 63,
+        "title": "Hacer una ruta en moto o scooter"
+    },
+    {
+        "_id": 64,
+        "title": "Ir a un planetario"
+    },
+    {
+        "_id": 65,
+        "title": "Tomar una clase de coctelería juntos"
+    },
+    {
+        "_id": 66,
+        "title": "Ir a una exhibición de arte moderno"
+    },
+    {
+        "_id": 67,
+        "title": "Tener una noche de fondue"
+    },
+    {
+        "_id": 68,
+        "title": "Ir a un desfile de modas"
+    },
+    {
+        "_id": 69,
+        "title": "Hacer una visita a una fábrica de chocolates"
+    },
+    {
+        "_id": 70,
+        "title": "Hacer paddle surf en la playa"
+    },
+    {
+        "_id": 71,
+        "title": "Ir a una pista de esquí"
+    },
+    {
+        "_id": 72,
+        "title": "Participar en un torneo de videojuegos"
+    },
+    {
+        "_id": 73,
+        "title": "Ir a una feria de comida callejera"
+    },
+    {
+        "_id": 74,
+        "title": "Tener una cena con velas en casa"
+    },
+    {
+        "_id": 75,
+        "title": "Ir a una exposición de fotografía"
+    },
+    {
+        "_id": 76,
+        "title": "Ir a un espectáculo de magia"
+    },
+    {
+        "_id": 77,
+        "title": "Pasar un día en un parque acuático"
+    },
+    {
+        "_id": 78,
+        "title": "Tomar una clase de yoga en pareja"
+    },
+    {
+        "_id": 79,
+        "title": "Ir a una playa remota"
+    },
+    {
+        "_id": 80,
+        "title": "Visitar una reserva natural"
+    },
+    {
+        "_id": 81,
+        "title": "Hacer una noche de trivia en casa"
+    },
+    {
+        "_id": 82,
+        "title": "Ir a una exhibición de autos deportivos"
+    },
+    {
+        "_id": 83,
+        "title": "Tomar una clase de cerámica"
+    },
+    {
+        "_id": 84,
+        "title": "Hacer una escapada de camping"
+    },
+    {
+        "_id": 85,
+        "title": "Ir a un concierto de música clásica"
+    },
+    {
+        "_id": 86,
+        "title": "Participar en una maratón local"
+    },
+    {
+        "_id": 87,
+        "title": "Hacer una ruta de cafés por la ciudad"
+    },
+    {
+        "_id": 88,
+        "title": "Ver una función de ballet"
+    },
+    {
+        "_id": 89,
+        "title": "Ir a un observatorio astronómico"
+    },
+    {
+        "_id": 90,
+        "title": "Tener una noche de juegos de arcade"
+    },
+    {
+        "_id": 91,
+        "title": "Visitar una fábrica de cerveza artesanal"
+    },
+    {
+        "_id": 92,
+        "title": "Ir a un espectáculo de stand-up comedy"
+    },
+    {
+        "_id": 93,
+        "title": "Pasar el día en un lago cercano"
+    },
+    {
+        "_id": 94,
+        "title": "Tener una cita de lectura juntos"
+    },
+    {
+        "_id": 95,
+        "title": "Hacer una competencia de cocina"
+    },
+    {
+        "_id": 96,
+        "title": "Visitar una cascada"
+    },
+    {
+        "_id": 97,
+        "title": "Tomar una clase de arte juntos"
+    },
+    {
+        "_id": 98,
+        "title": "Ir a una subasta"
+    },
+    {
+        "_id": 99,
+        "title": "Hacer una caminata fotográfica"
+    },
+    {
+        "_id": 100,
+        "title": "Tomar una clase de sushi en pareja"
+    }
+]
