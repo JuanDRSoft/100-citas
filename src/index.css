@@ -1,3 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.fondo {
+  background-image: url('../src/assets/Fondo.jpg');
+  background-size: cover;
+}
+
+.italianno-regular {
+    font-family: "Italianno", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
