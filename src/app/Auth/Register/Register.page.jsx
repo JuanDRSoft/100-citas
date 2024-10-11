@@ -34,7 +34,7 @@ const Register = () => {
         />
       </div>
 
-      <div className="px-2 mt-4">
+      <div className="px-2 mt-4 pb-20">
         <button className="mt-10 bg-blue-500 hover:bg-blue-800 font-bold text-white p-3 w-full rounded-xl duration-300 hover:shadow-xl">
           REGISTRATE
         </button>
