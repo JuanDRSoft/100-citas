@@ -19,7 +19,7 @@ const ForgotPass = () => {
       {tab == 1 && (
         <div>
           <p className="text-center mb-10">Ingresa tu email usado para iniciar sesión</p>
-          <div className="px-20 grid gap-5">
+          <div className="px-2 grid gap-5">
             <Input
               type={'text'}
               icon={'fas fa-at'}
@@ -34,7 +34,7 @@ const ForgotPass = () => {
       {tab == 2 && (
         <div>
           <p className="text-center mb-10">Revisa tu email e ingresa el codigo recibido</p>
-          <div className="px-20 grid gap-5">
+          <div className="px-2 grid gap-5">
             <Input type={'text'} label={'Codigo recibido'} value={code} setValue={setCode} />
           </div>
         </div>
@@ -43,7 +43,7 @@ const ForgotPass = () => {
       {tab == 3 && (
         <div>
           <p className="text-center mb-10">Ingresa tu nueva contraseña</p>
-          <div className="px-20 grid gap-5">
+          <div className="px-2 grid gap-5">
             <Input
               type={'password'}
               label={'Nueva Contraseña'}
@@ -60,7 +60,7 @@ const ForgotPass = () => {
         </div>
       )}
 
-      <div className="px-20 grid gap-5 mt-10">
+      <div className="px-2 grid gap-5 mt-10">
         {tab !== 3 ? (
           <button
             onClick={() => setTab(tab + 1)}

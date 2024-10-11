@@ -14,7 +14,7 @@ const Register = () => {
       <h1 className="italianno-regular text-[100px] text-center">100 Citas</h1>
       <p className="text-center mb-10">Ingresa tus datos para registrarte</p>
 
-      <div className="px-20 grid gap-5">
+      <div className="px-2 grid gap-5">
         <Input type={'text'} label={'Nombre Completo'} value={name} setValue={setName} />
         <Input type={'date'} label={'Fecha de cumpleaños'} value={birth} setValue={setBirth} />
         <Input
@@ -34,7 +34,7 @@ const Register = () => {
         />
       </div>
 
-      <div className="px-20 mt-4">
+      <div className="px-2 mt-4">
         <button className="mt-10 bg-blue-500 hover:bg-blue-800 font-bold text-white p-3 w-full rounded-xl duration-300 hover:shadow-xl">
           REGISTRATE
         </button>

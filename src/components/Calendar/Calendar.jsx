@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import SelectMonth from './components/SelectMonth'
 
 const Calendar = () => {
   const [currentDate, setCurrentDate] = useState(new Date())
@@ -41,25 +42,12 @@ const Calendar = () => {
     daysArray.push(day)
   }
   return (
-    <div className="">
-      <div className="w-full justify-center flex mb-5 bg-cyan-900">
-        <button
-          className="bg-blue-500 p-1 px-5 text-white font-bold rounded-l-xl"
-          onClick={() => setCurrentDate(new Date(year, month - 1))}
-        >
-          {'<'}
-        </button>
-        <span className="border px-10 flex items-center">{`${year}  ${months[month + 1]}`}</span>
-        <button
-          className="bg-blue-500 p-1 px-5 font-bold text-white rounded-r-xl"
-          onClick={() => setCurrentDate(new Date(year, month + 1))}
-        >
-          {'>'}
-        </button>
-      </div>
-      <div className="grid grid-cols-7 gap-5 border rounded-b-2xl overflow-hidden p-5 bg-sky-300">
-        {['Dom', 'Lun', 'Mar', 'Mie', 'Jue', 'Vie', 'Sab'].map((dayName) => (
-          <div className="text-center uppercase font-bold" key={dayName}>
+    <div className="grid gap-3">
+      <SelectMonth setCurrentDate={setCurrentDate} months={months} currentDate={currentDate} />
+
+      <div className="grid grid-cols-7 gap-2 overflow-hidden p-5 bg-white rounded-3xl">
+        {['D', 'L', 'M', 'M', 'J', 'V', 'S'].map((dayName) => (
+          <div className="flex justify-center items-center uppercase text-xl w-12" key={dayName}>
             {dayName}
           </div>
         ))}
@@ -67,7 +55,9 @@ const Calendar = () => {
         {daysArray.map((day, index) => (
           <div
             key={index}
-            className="text-center hover:bg-blue-400 rounded-full font-bold text-white"
+            className={`${
+              !day && 'bg-white'
+            } bg-gray-100 w-12 h-12 text-xl rounded-full flex justify-center items-center`}
           >
             {day || ''}
           </div>

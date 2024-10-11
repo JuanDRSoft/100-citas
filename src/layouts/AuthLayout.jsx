@@ -3,13 +3,11 @@ import CopyrightItem from '../utils/CopyrightItem'
 
 const AuthLayout = () => {
   return (
-    <div className="w-full h-screen fondo">
-      <div className="bg-white w-2/5 shadow-xl h-full relative">
-        <Outlet />
+    <div className="w-full h-screen">
+      <Outlet />
 
-        <div className="absolute bottom-1 flex justify-center w-full">
-          <CopyrightItem />
-        </div>
+      <div className="fixed bottom-0 flex justify-center w-full bg-white border-t pt-1">
+        <CopyrightItem />
       </div>
     </div>
   )

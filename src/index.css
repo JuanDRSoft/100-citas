@@ -9,7 +9,12 @@
 }
 
 .italianno-regular {
-    font-family: "Italianno", cursive;
-    font-weight: 400;
-    font-style: normal;
-  }
+  font-family: 'Italianno', cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.landing {
+  background-image: url('../src/assets/Landing.png');
+  background-size: cover;
+}
