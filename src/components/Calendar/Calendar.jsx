@@ -2,7 +2,7 @@
 import { useEffect, useState } from 'react'
 import SelectMonth from './components/SelectMonth'
 
-const data = [{ date: '2024-10-04 03:00:00' }, { date: '2024-09-04 03:00:00' }]
+const data = [{ date: '2024-10-04T03:00:00' }, { date: '2024-09-04T03:00:00' }]
 const months = [
   '',
   'Enero',

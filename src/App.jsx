@@ -6,6 +6,7 @@ import Register from './app/Auth/Register/Register.page'
 import ForgotPass from './app/Auth/Forgot-Password/ForgotPass.page'
 import Dashboard from './app/App/Home/Dashboard.page'
 import AppLayout from './layouts/app/AppLayout'
+import Citas from './app/App/Citas/Citas.page'
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
 
         <Route path="/app" element={<AppLayout />}>
           <Route index element={<Dashboard />} />
+          <Route path="citas" element={<Citas />} />
         </Route>
       </Routes>
     </BrowserRouter>

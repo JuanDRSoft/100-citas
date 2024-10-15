@@ -7,6 +7,11 @@ const SelectMonth = ({ months, currentDate, setCurrentDate }) => {
     document.getElementById('months_select').classList.toggle('hidden')
   }
 
+  const selectMonth = (item) => {
+    setCurrentDate(new Date(year, item - 1))
+    openAndClose()
+  }
+
   return (
     <div className="w-full flex justify-between items-center relative">
       <div className="flex bg-white p-2 rounded-full gap-4">
@@ -38,7 +43,7 @@ const SelectMonth = ({ months, currentDate, setCurrentDate }) => {
           <div
             className={`text-center ${index !== 12 && 'border-b'} text-xl ${index !== 0 && 'p-2'}`}
             key={index}
-            onClick={() => setCurrentDate(new Date(year, index - 1))}
+            onClick={() => selectMonth(index)}
           >
             {item}
           </div>

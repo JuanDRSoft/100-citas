@@ -4,7 +4,7 @@ import Avatar from './components/Avatar'
 
 const AppLayout = () => {
   return (
-    <div className="bg-gray-100 h-screen w-screen">
+    <div className="bg-gray-100 w-screen">
       <div className="flex justify-between p-4">
         <div>
           <Badge icon={'fas fa-bars'} />
@@ -15,7 +15,9 @@ const AppLayout = () => {
           <Avatar />
         </div>
       </div>
-      <Outlet />
+      <div className="pb-10">
+        <Outlet />
+      </div>
     </div>
   )
 }
