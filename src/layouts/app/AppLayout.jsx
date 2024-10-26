@@ -1,13 +1,14 @@
 import { Outlet } from 'react-router-dom'
 import Badge from '../../components/Design/Badge'
 import Avatar from './components/Avatar'
+import Menu from './components/Menu'
 
 const AppLayout = () => {
   return (
     <div className="bg-gray-100 w-screen">
       <div className="flex justify-between p-4">
         <div>
-          <Badge icon={'fas fa-bars'} />
+          <Menu />
         </div>
 
         <div className="flex gap-2">
@@ -15,7 +16,7 @@ const AppLayout = () => {
           <Avatar />
         </div>
       </div>
-      <div className="pb-10">
+      <div className="">
         <Outlet />
       </div>
     </div>

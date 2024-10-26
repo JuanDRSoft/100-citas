@@ -8,7 +8,7 @@ const Citas = () => {
         <h1 className="text-3xl font-bold pl-2 mb-4">Listado De Citas ❤️‍🔥</h1>
       </div>
 
-      <div className="grid gap-3">
+      <div className="grid gap-3 overflow-y-auto h-[80vh] pb-5">
         {['', '', '', '', '', '', ''].map((item, index) => (
           <Link
             to={`/app/cita/${item.id}`}
